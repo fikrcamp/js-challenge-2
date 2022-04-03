@@ -12,6 +12,15 @@ let blueTeams_score3 = 110 ;
 let blueTeams_average = blueTeams_score1 + blueTeams_score2 + blueTeams_score3 / 3;
  console.log(blueTeams_average);
 
- console.log(redTeams_average > blueTeams_average);
+ 
 
- console.log("that means the red team is the winner since they've got the higher average")
+ if (
+     redTeams_average > blueTeams_average)
+     {
+        console.log("the winner is red")
+     }
+     else{
+         console.log("the blues won ")
+     }
+
+ 
